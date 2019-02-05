@@ -6,8 +6,6 @@ body {
 }
 
 #form-container {
-  display: grid;
-  grid-template-columns: 50px 50px;
   background-color: hsl(0, 0%, 97%);
   margin: 0 auto;
   border-radius: 5px;
