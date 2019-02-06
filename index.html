@@ -11,17 +11,26 @@
       <main id="form-container">
         <p id="description">Let us know how we can improve freeCodeCamp</p>
           <form id="survey-form">
-              <div id="personal-info">
-                <label id="name-label" class="labels">* Name:
-                  <input id="name" class="inputs" type="text" placeholder="Enter your name" required>
-                </label>
-                <label id="email-label" class="labels">* Email:
-                  <input id="email" class="inputs" type="text" placeholder="Enter your email" required>
-                </label>
-                <label id="number-label" class="labels">* Age:
-                  <input id="number" class="inputs" type="text" placeholder="Age" required>
-                </label>
+            <div class="row">
+              <div class="labels"> <!--float all labels left in CSS-->
+                <label id="name-label" for="name">* Name:</label>
               </div>
+              <div class="inputs"> <!--float all inputs right in CSS-->
+                <input id="name" type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="labels"> <!--float all labels left in CSS-->
+                <label id="email-label" for="email">* Email:</label>
+              </div>
+              <div class="inputs"> <!--float all inputs right in CSS-->
+                <input id="email" type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="labels"> <!--float all labels left in CSS-->
+                <label id="number-label" for="age">* Age:</label>
+              </div>
+              <div class="inputs"> <!--float all inputs right in CSS-->
+                <input id="number" type="text" placeholder="Age" required>
+              </div>
+            </div>
 <!--CURRENT ROLE DROPDOWN-->
           <fieldset>
             <legend class="labels">Which option best describes your current role?</legend>
